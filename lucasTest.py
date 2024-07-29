@@ -30,7 +30,7 @@ def testN (a):
         if successive_squaring(a,n-1,n) == 1:
             indexer = 0
             while indexer < len(primeFactorList):
-                if(a, (n-1) / primeFactorList[indexer], n) == 1:
+                if successive_squaring(a, (n-1) / primeFactorList[indexer], n) == 1:
                     return(testN (a + 1))
                 indexer = indexer + 1
             return(True)
