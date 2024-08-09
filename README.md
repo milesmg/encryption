@@ -1,4 +1,4 @@
-# pgp_encryption
+# encryption
  
 The two files in this code are meant to complement each other, enabling the user to
 run an RSA encryption program. 
