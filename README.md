@@ -1,9 +1,9 @@
 # pgp_encryption
  
 The two files in this code are meant to complement each other, enabling the user to
-run a PGP ("pretty good privacy") encryption program. 
+run an RSA encryption program. 
 
-PGP, or public key cryptography, relies on large prime numbers. Equipped with two large primes, a user can generate a public and private key. The user's public key is used by senders to encrypt messages, which the initial user can then decrypt with their private key.
+RSA, or public key cryptography, relies on large prime numbers. Equipped with two large primes, a user can generate a public and private key. The user's public key is used by senders to encrypt messages, which the initial user can then decrypt with their private key.
 
 The strength of this encryption lies in the size of the two large primes that generated the key pair. It is very easy to multiply large prime numbers, but very hard to factor the product of two large primes. This 'one-directionality' is the basis for modern cryptography.
 
